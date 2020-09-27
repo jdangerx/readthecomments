@@ -117,6 +117,44 @@ call s:h("WildMenu", s:fg, "", "")
 " Syntax colors {
 call s:h("Comment", s:comment_fg, "", "bold")
 call s:h("String", s:blue, "", "")
+call s:h("Constant", s:fg, "", "")
+call s:h("Character", s:fg, "", "")
+call s:h("Number", s:fg, "", "")
+call s:h("Boolean", s:fg, "", "")
+call s:h("Float", s:fg, "", "")
+
+call s:h("Identifier", s:fg, "", "")
+call s:h("Function", s:fg, "", "")
+call s:h("Statement", s:fg, "", "")
+
+call s:h("Conditional", s:fg, "", "")
+call s:h("Repeat", s:fg, "", "")
+call s:h("Label", s:fg, "", "")
+call s:h("Operator", s:fg, "", "")
+call s:h("Keyword", s:fg, "", "")
+call s:h("Exception", s:fg, "", "")
+
+call s:h("PreProc", s:fg, "", "")
+call s:h("Include", s:fg, "", "")
+call s:h("Define", s:fg, "", "")
+call s:h("Macro", s:fg, "", "")
+call s:h("PreCondit", s:fg, "", "")
+
+call s:h("Type", s:fg, "", "")
+call s:h("StorageClass", s:fg, "", "")
+call s:h("Structure", s:fg, "", "")
+call s:h("Typedef", s:fg, "", "")
+
+call s:h("Special", s:fg, "", "")
+call s:h("SpecialChar", s:fg, "", "")
+call s:h("Tag", s:fg, "", "")
+call s:h("Delimiter", s:fg, "", "")
+call s:h("SpecialComment", s:fg, "", "")
+call s:h("Debug", s:fg, "", "")
+call s:h("Underlined", s:fg, "", "")
+call s:h("Ignore", s:fg, "", "")
+call s:h("Error", s:fg, "", "")
+call s:h("Todo", s:fg, "", "")
 " }
 
 
